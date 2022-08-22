@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-14 19:02+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\cart\forms.py:7
+msgid "Quantity"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:6 .\cart\templates\cart\detail.html:10
+msgid "Your shopping cart"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:47
+msgid "Remove"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:60
+msgid "Subtotal"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:77
+msgid "Total"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:86
+msgid "Apply a coupon"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:89
+msgid "Apply"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:95
+msgid "Continue shopping"
+msgstr ""
+
+#: .\cart\templates\cart\detail.html:97
+msgid "Checkout"
+msgstr ""
+
+#: .\config\settings.py:130
+msgid "English"
+msgstr ""
+
+#: .\config\settings.py:131
+msgid "Spanish"
+msgstr ""
+
+#: .\config\urls.py:29
+msgid "admin/"
+msgstr ""
+
+#: .\config\urls.py:30
+msgid "cart/"
+msgstr ""
+
+#: .\config\urls.py:31
+msgid "orders/"
+msgstr ""
+
+#: .\config\urls.py:32
+msgid "payment/"
+msgstr ""
+
+#: .\config\urls.py:33
+msgid "coupons/"
+msgstr ""
+
+#: .\coupons\forms.py:5
+msgid "Coupon"
+msgstr ""
+
+#: .\payment\urls.py:8
+msgid "process/"
+msgstr ""
+
+#: .\payment\urls.py:9
+msgid "done/"
+msgstr ""
+
+#: .\payment\urls.py:10
+msgid "canceled/"
+msgstr ""
+
+#: .\templates\shop\base.html:7 .\templates\shop\base.html:12
+msgid "My shop"
+msgstr ""
+
+#: .\templates\shop\base.html:17
+msgid "Language"
+msgstr ""
+
+#: .\templates\shop\base.html:34
+msgid "Your cart"
+msgstr ""
+
+#: .\templates\shop\base.html:36
+#, python-format
+msgid ""
+"\n"
+"                        %(items)s item, $%(total)s\n"
+"                    "
+msgid_plural ""
+"\n"
+"                        %(items)s items, $%(total)s\n"
+"                "
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\templates\shop\base.html:43
+msgid "Your cart is empty"
+msgstr ""
+
+#: .\templates\shop\product\detail.html:22
+msgid "Add to cart"
+msgstr ""
+
+#: .\templates\shop\product\list.html:10
+msgid "Categories"
+msgstr ""
+
+#: .\templates\shop\product\list.html:13
+msgid "All"
+msgstr ""
