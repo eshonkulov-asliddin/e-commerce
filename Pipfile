@@ -37,6 +37,7 @@ environs = {extras = ["django"], version = "*"}
 psycopg2 = "*"
 django-storages = "*"
 boto3 = "*"
+gunicorn = "*"
 
 [dev-packages]
 
