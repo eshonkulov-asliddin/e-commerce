@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-from email.policy import default
 import os
 from pathlib import Path
 from environs import  Env
@@ -114,17 +113,17 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 #     }
 # }
-# DATABASES = {
-#     'default': env.dj_db_url('DATABASE_URL')
-# }
-
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': env.dj_db_url('DATABASE_URL')
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
