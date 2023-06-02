@@ -1,32 +1,32 @@
-#  Fully Functional e-commerce website
-# Installation guide
+#  Fully Functional E-Commerce website
+### Installation guide
 - pipenv install -r requirements.txt
 
 ![](readme_img/e-dashboard.png)
-# It is possible to change the language of the web page
+### It is possible to change the language of the web page
 ![](readme_img/e-dashboard-es.png)
 
-# You can add an element to the cart. It includes recommendation engine
+### You can add an element to the cart. It includes recommendation engine
 ![](readme_img/e-product.png)
 
-# Cart
+### Cart
 ![](readme_img/e-cart.png)
 
-# Apllying Coupon
+### Apllying Coupon
 ![](readme_img/e-coupon-cart.png)
 
-# Order
+### Order
 ![](readme_img/e-checkout.png)
 
-# Pay by Visa Card
-# The Visa Card integration is done by using Brain Tree Api
+### Pay by Visa Card
+### The Visa Card integration is done by using Brain Tree Api
 ![](readme_img/e-payment.png)
 
-# If payment was Successfull
+### If payment was Successfull
 ![](readme_img/e-payment-successfull.png)
 
-# Admin Page
+### Admin Page
 ![](readme_img/e-order-admin.png)
 
-# Check
+### Check
 ![](readme_img/e-paid-check.png)
